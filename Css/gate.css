@@ -1,0 +1,70 @@
+.gate {
+    background-color: #0b0b0b;
+    color: #f8f8f8;
+    font-family: 'Baskerville','Cinzel', serif;
+    margin: 0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    align-items:left;
+    min-height:100vh;
+}
+
+.gate-canvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    text-align: center;
+
+}
+.architecture-silhouette {
+    opacity: 0.15;
+}
+
+.gate-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+
+.gateway-auth-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.btn {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.btn_style_start {
+    background-color: #fff5de;
+    color: #fff3d5;
+    border-bottom: 4px solid #faf2d8;
+    transition: transform 0.1s;
+}
+
+.btn_style_start:active {
+    transform: translateY(4px);
+    border-bottom-width: 0px;
+}
+
+.btn_style_login {
+    background-color: transparent;
+    color: #f5f2eb;
+    border-bottom: 2px solid #3d382e;
+}
+
+.btn_style_start:hover {
+   background-color: #1a1a1a;
+}
