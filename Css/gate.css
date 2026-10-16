@@ -35,36 +35,67 @@
     gap: 15px;
 }
 
-.btn {
+.gate-content-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 60px auto 0 auto;
+    padding: 0 40px;
+}
+
+.gate-portal-wing {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.gate-character-wing {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.gate-buttons {
     font-family: sans-serif;
     font-weight: bold;
-    padding: 16px 0;
+    padding: 16px 32px;
     font-size: 1rem;
     border: none;
-    border-radius: 16px;
+    border-radius: 100px;
     cursor: pointer;
     width: 100%;
+    box-sizing: border-box;
     letter-spacing: 1px;
 }
 
-.btn_style_start {
-    background-color: #fff5de;
-    color: #fff3d5;
-    border-bottom: 4px solid #faf2d8;
+.gate_btn_start {
+    background-color: #f3e4ba;
+    color: #1a1916;
+    border-bottom: 4px solid #f3e4ba;
     transition: transform 0.1s;
 }
 
-.btn_style_start:active {
+.gate_btn_start:active {
     transform: translateY(4px);
     border-bottom-width: 0px;
 }
 
-.btn_style_login {
+.gate_btn_start:hover {
+    background-color: #fdf5e1;
+}
+
+.gate_btn_login {
     background-color: transparent;
     color: #f5f2eb;
     border-bottom: 2px solid #3d382e;
 }
 
-.btn_style_start:hover {
-   background-color: #1a1a1a;
+.gate_btn_login:hover {
+   background-color: #333333;
+   
+}
+
+.gate_btn_login:active {
+    transform: scale(0.98);
 }
