@@ -6,8 +6,8 @@
     padding:0;
     display:flex;
     justify-content:center;
-    align-items:left;
     min-height:100vh;
+
 }
 
 .gate-canvas {
@@ -22,10 +22,16 @@
     opacity: 0.15;
 }
 
+.gate-header {
+    position: absolute;
+    top: 30px;
+    left:40px;
+   z-index: 10;
+}
 .gate-title {
     font-size: 2.5rem;
     color: #ffffff;
-    margin: 0 0 10px 0;
+    margin: 0 ;
 }
 
 .gateway-auth-block {
@@ -42,20 +48,31 @@
     align-items: center;
     max-width: 1100px;
     margin: 60px auto 0 auto;
-    padding: 0 40px;
-}
-
-.gate-portal-wing {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    padding: 0 10%;
 }
 
 .gate-character-wing {
     display:flex;
     justify-content:center;
-    align-items:center;
+    gap: 16px;
 }
+
+.gate-character-card{
+    width:320px;
+    height: 420px;
+    border: 2px dashed #b3a994;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 242, 235, 0.05);
+
+}
+.gate-portal-wing {
+    display: flex;
+    flex-direction: column;
+}
+
 .gate-buttons {
     font-family: sans-serif;
     font-weight: bold;
